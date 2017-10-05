@@ -7,14 +7,14 @@
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
 #+TITLE: PIC Circuits
-#+AUTHOR: Stephen Brown
+#+AUTHOR: C. Delport
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/stsb11/pic_programmer">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/pic_programmer">Fork me on GitHub</a>
 </div>
 <center>
-<img src='img/pic4.jpg' width=33%>
+<img src='img/pic5.jpg' width=33%>
 </center>
 #+END_HTML
 
@@ -114,11 +114,10 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Whether its an LED or a PIC chips, the first thing that electronic components need is power, and a connection to ground. Circuit Wizard simplifies this for us by showing each of the 8 legs of the PIC (known as pins) in a different order to how they really are. This makes drawing the initial circuit easier. In this case, Power has been drawn by itself at the top of the chip, and the ground pin (the negative end of a battery) is at the bottom.
 - When designing PIC circuits, Inputs are placed to the left of the PIC chip. We're not going to worry about these for now.
 - Outputs are placed to the right of the PIC chip. In the project you're making, you'll actually use 3 LEDs, connected to the other output pins. For now, we can just leave outputs 2 and 4 empty.
-- One of great things about the Genie C08 PIC is that you can change the configuration of the pins; with this particular project, we'll be using pins 0, 1 and 2 for outputs, and pin 4 for our input. This is because when the PCB was designed, using this arrangement allowed us to make the PCB smaller with this setup. 
+- One of great things about the Genie 08 PIC is that you can change the configuration of the pins; this will allow users to re-configure the PIC different projects.
+- Below is how you would go about doing this.
+- *In this project, we are not going to change these settings.* 
 [[./img/rclick.png]]
-- To change the configuration, start by *right-clicking* on the Genie chip in Circuit Wizard. From the menu that appears, then choose *Program* and then *Program settings*. 
-[[./img/changepins.png]]
-- At the bottom of the window that appears, click the drop-down list, and choose the option that says, "*2 inputs, 3 outputs (G0-G2)*". Now click "Ok". 
 - Try and run the circuit. You'll see an error message, and the screen will change to show you a green flowchart symbol with the word, "Start" in it. This is because the PIC chip needs you to give it instructions as to what you'd like it to do. Using shapes located on the right-hand side of the screen and experimenting with clicking near the shapes you've drawn, create the following flowchart. We're going to make the LED blink on and off.
 [[file:img/step_2.png]]
 - If you had to guess, you could probably figure out that instructions are followed starting from "Start", and following the arrows to the bottom, before being started all over again endlessly. If you've tried to run the program, you'll see that its still not sure what you'd like it to do. 
@@ -139,7 +138,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: run
 :END:
-- Try and modify your program and answer the questions below on a Word document. You'll be saving this circuit in your home drive later.
+- Try and modify your program and answer the questions below on a text document (.txt). You'll be saving this circuit in your home drive later.
 - Make the LED blink on and off twice as quickly.
 - Why are there two wait shapes, and not just one?
 - Modify your program, so that it comes on for 2s, off for 1s, on for 1s and off for 2s before repeating.
@@ -185,7 +184,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Some input components are analogue. This means they can have a range of different values, like a [[http://en.wikipedia.org/wiki/Photoresistor][LDR]] or [[http://en.wikipedia.org/wiki/Thermistor][thermistor]].
 - LDRs work because their resistance increases as it gets darker, and when connected to an analogue input on a PIC chip, this can be read as a number between 0 (very dark) and 255 (extremely bright).
 - Modify your circuit diagram, by swapping the PTM switch for an LDR (found in the Sensors section of Input Components in Circuit Wizard).
-- _*NOTE:*_ The LDR is connected to input 4. This is because an LDR is an analogue component, so needs to be connected to an input that can accept it (notice the /A after G4 in the picture below). 
+- _*NOTE:*_ The LDR is connected to input 6. This is because an LDR is an analogue component, so needs to be connected to an input that can accept it (notice the /A after G1 in the picture below). 
 [[file:img/step_6.png]]
 - Your circuit should now look something like the picture above.
 - Lets look at the results of this work. Click the 'play' button to run the circuit, then click the text saying, 'View the analogue sensor readings' which can be seen on the far right-hand side of the circuit wizard window, about half-way down the screen.
