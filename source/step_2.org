@@ -94,7 +94,6 @@ file:img/faults.jpg]]
 - Remember to make sure to install the LEDs the right way around. You can use either 3mm or 5mm LEDs of any colour. Note that blue LEDs might not work, as they require slightly more voltage. 
 [[file:img/led.jpg]]
 - Keep using the side cutter to remove the excess wire from the component legs as you go along, to make it easier to work on the board.
-- The SIL (Single In-Line) header pins come in strips of about 20 pins. Use a side-cutter to break off 2 and 3 pins, then solder them in carefully.
 - The LDR is non-polarised, so can be mounted either way round.
 - Try and keep all your components flat to the board, so that they're not sticking up in the air.
 [[./img/soldering1.jpg]]
