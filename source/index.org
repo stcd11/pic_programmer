@@ -35,6 +35,10 @@
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
         :END:      
+* [[file:step_6.html][Lesson 6 - Housing]]
+:PROPERTIES:
+	:HTML_CONTAINER_CLASS: activity
+        :END:      
 * [[file:assess.html][Assessment]]
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity

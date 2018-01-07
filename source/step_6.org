@@ -1,0 +1,122 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: Housing 
+#+AUTHOR: PM Dougall
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stsb11/pic_programmer">Fork me on GitHub</a>
+</div>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+* PCB Housing
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+- It is starting to look a lot like... we need a housing for our PCB board.
+- We can design this on Solidworks. As well as practising our skills on Solidworks we can check whether the parts will fit together.
+- Lots of the ideas are Xmas themed but you can make whatever you like but are limited in material to *100mm X 100mm.*
+
+** Part 1 
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- In this tutorial you will build a circuit board as a part and then import LEDs and the board into an assembly.
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fPY2lCm4QY0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+
+** Part 2
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- In this tutorial we will make our own part - Xmas Tree or a reindeer etc.- to add to the assembly.
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mGqCqDuxBXg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+
+** Autotrace
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Autotrace is a tool in Solidworks which allows us to be able to draw around an image and make it into a part.
+- The tutorial will take you through how to switch on the add in Autotrace, how to check whether it is a suitable image - not all work - and how to extrude to 3mm.
+*- Do remember when you first import the image using sketch pitcure check the dimensions are no bigger than 100mm X 100mm.*
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PPzlnET1sKQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+#+END_HTML
+
+- Once extruded it can be made into a DXF and then imported into 2D design, change colours and finally emailed to the lasercutter. 
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e54Kv9vir3w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+#+END_HTML
