@@ -39,6 +39,10 @@
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
         :END:      
+* [[file:evaluation.html][Lesson 7 - Evaluation]]
+:PROPERTIES:
+	:HTML_CONTAINER_CLASS: activity
+        :END:      
 * [[file:assess.html][Assessment]]
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
