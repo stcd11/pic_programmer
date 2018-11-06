@@ -96,7 +96,7 @@ file:img/faults.jpg]]
 - Keep using the side cutter to remove the excess wire from the component legs as you go along, to make it easier to work on the board.
 - The LDR is non-polarised, so can be mounted either way round.
 - Try and keep all your components flat to the board, so that they're not sticking up in the air.
-[[./img/soldering1.jpg]]
+[[./img/soldering2.jpg]]
 - When you're finished, your board should look something like the image above. 
 - You can now see your teacher for a Genie C08 chip, which you can insert into the chip holder. 
 - NOTE: Make sure the right way up, by ensuring that the notch in the Genie chip lines up with the notch on the chip carrier.
