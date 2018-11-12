@@ -110,4 +110,7 @@ file:img/faults.jpg]]
 :END:
 - Take pictures of the following, for inclusion in your portfolio: PCB (front), PCB (back).
 - Upload your photos and then create a text document describing your soldering technique, briefly stating what you feel is good about your work, and identifying something you'd like to improve. Upload the text document.
+- *Silver Badge* - Progress ladder, Yellow - Identify and solder simple components (e.g. resistors) to PCBs, with assistance.
+- *Gold Badge* - Progress ladder, Green - Solder more challenging components (e.g. ICs) to a PCB, with assistance.
+- *Platinum badge* - Progress ladder, Blue - Confidently and consistently solder components to a high standard.
 [[file:index.html][Return to homepage]]

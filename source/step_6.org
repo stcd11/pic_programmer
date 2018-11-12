@@ -14,7 +14,7 @@
 * COMMENT Use as a template
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
-:END:
+:END:      
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
@@ -82,7 +82,6 @@
 - It is starting to look a lot like... we need a housing for our PCB board.
 - We can design this on Solidworks. As well as practising our skills on Solidworks we can check whether the parts will fit together.
 - Lots of the ideas are Xmas themed but you can make whatever you like but are limited in material to *100mm X 100mm.*
-
 ** Part 1 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: code
@@ -120,3 +119,10 @@
 #+BEGIN_HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e54Kv9vir3w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 #+END_HTML
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- Silver - Progress ladder, Yellow - Use a CAD package to draw shapes accurately to specified dimensions.
+- Gold - Progress ladder, Green - Demontrate the use of a 2D and 3D design package within a project.
+- Platinum - Progress ladder, Blue - Create multiple connecting parts using a CAD package.

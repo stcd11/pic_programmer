@@ -127,14 +127,15 @@ By this point, you should have a fully soldered together PCB (with a chip), a do
 - Once you're happy that your LEDs work, click the "Cancel" button. We're now going to test the LDR is working properly.
 - Choose "Calibrate sensor" from the right-hand menu. You'll see a numeric value between 0-255, which in this case represents the light level where you are. By covering and uncovering the sensor, you should see the value change, proving that your LDR is working correctly.
 - Make a note somewhere of what value the LDR gives under standard classroom lighting, and the value when it is covered up. This will be vital later in getting your programs to work.
-* Assessment Point
+* Self assessment Point
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Badge It
+** Assess your progress
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
 - On your portfolio, add screenshots of both your Analogue sensor under light and dark conditions.
 - Take a picture of your PCB connected to your computer. Try and take one while the status LED (the left-hand one) is illuminated.
+- *This is not a badge task to be uploaded to www.bournetolearn.com.* 
 [[file:index.html][Return to homepage]]

@@ -169,7 +169,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Change it again, so that when you push and hold the button, it flashes on and off slowly. When the button is released, make it flash quickly.
 - Add two more LEDs to your circuit diagram, and make a note of which output pin they're connected to. You can change their colour by double-clicking them. Make output 0 red, output 1 amber and output 2 green.
 - Write a program that makes each of the LEDs come on for 2s at a time while the button is held down. When released, they should all turn off.
-- You can turn on multiple LEDs at once. Modify the code so that when the button is pushed, they simulate a set of [[http://www.drivingtesttips.biz/traffic-lights-sequence.html][traffic lights]] (make then change once every 2s). Save this as "PIC-traffic.cwz".
+- This is the *Silver badge - Progress ladder, Yellow - With assistance, write a simple program to manipulate outputs.* You can turn on multiple LEDs at once. Modify the code so that when the button is pushed, they simulate a set of [[http://www.drivingtesttips.biz/traffic-lights-sequence.html][traffic lights]] (make then change once every 2s). Save this as "PIC-traffic.cwz".
 - Congratulations! This program (or any of the others you've made) could be put straight onto the circuit you're going to make in your practical sessions.
 * Digital Vs. Analogue
 :PROPERTIES:
@@ -205,6 +205,7 @@ Save your work as "Analogue PIC.cwz".
 - Note the values I used on the decision diamonds.
 - Make sure with your output parallelograms that you turn off any outputs that aren't being turned on. For instance, in the bottom-left shape, I turned output 0 on, and also turned off outputs 1 and 2. 
 - Test your program when finished, and see how changing the light level affects how many LEDs are turned on.
+- This is the *Gold Badge - Progress ladder, Green - With assistance, write programs to handle inputs in a PIC circuit.*
 ** Try It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
@@ -214,7 +215,7 @@ Save your work as "Analogue PIC.cwz".
 - Then change it again so that when its really bright, all 3 LEDS flash on and off repeatedly. 
 - Save your best program as, "my analogue program.cwz". 
   
-* Badge It
+* Badge It Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -223,6 +224,7 @@ Save your work as "Analogue PIC.cwz".
 :HTML_CONTAINER_CLASS: design
 :END:
 Create a text document and answer the following questions:
+  - *Progress ladder Blue - Independently discuss PIC circuits and how they handle both digital and analogue data.*
   - What are the advantages of using PIC chips over traditional circuit design?
   - Giving examples, explain the difference between analogue and digital input components.
   - In programming, what is meant by the term, "loop"? Why is is often advantageous to have programs use these, rather than running through their code from top to bottom?
