@@ -125,10 +125,12 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- Draw the flowchart symbol for a 'decision' and describe the difference between an *analogue* input and a *digital* input.
-- Name 3 input components.
-- Name 3 output components.
-- Take a photograph of your work and upload it to [[https://www.bournetolearn.com][www.bournetolearn.com]] homework 3 badge.
+- We use analogue and digital components in projects. The PIC Licence contains one digital input and one analogue input. An input component is any part that allows us to send information IN to the circuit. A switch detects a user's finger pushing it, for instance. 
+- The PIC licence uses three LEDs as outputs. An output is a component which the circuit can switch on and off, like an LED
+  1. Describe the difference between an analogue input and a digital input.
+  2. A switch in an input component. Name three other input components.
+  3. An LED is an output component. Name three other output components.
+
 
 
 
