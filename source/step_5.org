@@ -92,6 +92,9 @@ Program your PCB, so that it...
 - is an automatic floodlight. The first LED illuminates when it gets a little darker than the room, the second LED as well when it gets darker still, and the third LED when it is very dark.
 - is a torch. The LEDs all come on when someone puts their finger on the LDR momentarily, and turns them off again when they "push" the LDR a second time.
 - is a toothbrush timer. When triggered by someone passing their hand over the LDR, use the LEDs to indicate to a child when two minutes have elapsed, to help them brush their teeth thoroughly.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/snnVIR0IcOk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
 ** Free choice
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
