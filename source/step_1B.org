@@ -1,0 +1,153 @@
+#+STARTUP:indent
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+BEGIN_COMMENT
+#+STYLE: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+#+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
+#+END_COMMENT
+#+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
+#+TITLE: PIC Circuits
+#+AUTHOR: C. Delport / P.Dougall
+
+#+BEGIN_HTML
+<div class=ribbon>
+<a href="https://github.com/stcd11/pic_programmer">Fork me on GitHub</a>
+</div>
+<center>
+<img src='img/pic5.jpg' width=33%>
+</center>
+#+END_HTML
+
+* COMMENT Use as a template
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Learn It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+
+** Research It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+
+** Design It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+** Build It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+
+** Test It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+
+** Run It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+
+** Document It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: document
+:END:
+
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+
+** Program It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: program
+:END:
+
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+
+** Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+
+
+* Digital Vs. Analogue
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Design time
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+- We've nearly covered all the theory we'll need for this project. The last stage is to add the type of intput your project will use.
+- Some input components are digital. This means that they can only be either 'on' or 'off', like switches or buttons.
+- Some input components are analogue. This means they can have a range of different values, like a [[http://en.wikipedia.org/wiki/Photoresistor][LDR]] or [[http://en.wikipedia.org/wiki/Thermistor][thermistor]].
+- LDRs work because their resistance increases as it gets darker, and when connected to an analogue input on a PIC chip, this can be read as a number between 0 (very dark) and 255 (extremely bright).
+- Modify your circuit diagram, by swapping the PTM switch for an LDR (found in the Sensors section of Input Components in Circuit Wizard).
+- _*NOTE:*_ The LDR is connected to input 6. This is because an LDR is an analogue component, so needs to be connected to an input that can accept it (notice the /A after G1 in the picture below). 
+[[file:img/step_6.png]]
+- Your circuit should now look something like the picture above.
+- Lets look at the results of this work. Click the 'play' button to run the circuit, then click the text saying, 'View the analogue sensor readings' which can be seen on the far right-hand side of the circuit wizard window, about half-way down the screen.
+[[file:img/step_7.png]]
+- Your screen should look the same as shown above. If you now click once on the LDR symbol on the circuit diagram, you can simulate a change in light level by dragging 
+- We can now be a little more flexible about how our programs work. With a digital switch, we're no longer limited to "is it on?". We could program our chip to work as a light meter, for instance. 
+** Save It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: save
+:END:
+Save your work as "Analogue PIC.cwz".
+** Code It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: run
+:END:
+- Using the analogue diamond shape in Circuit Wizard, create the following program...
+[[file:img/step_12.png]]
+- Note the values I used on the decision diamonds.
+- Make sure with your output parallelograms that you turn off any outputs that aren't being turned on. For instance, in the bottom-left shape, I turned output 0 on, and also turned off outputs 1 and 2. 
+- Test your program when finished, and see how changing the light level affects how many LEDs are turned on.
+- This is the *Gold Badge - Progress ladder, Green - With assistance, write programs to handle inputs in a PIC circuit.*
+** Try It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try
+:END:
+- Try adding another decision box to turn all 3 LEDs on when the light level is even higher. 
+- Try adding another decision box (and adjusting the others), so that all the LEDs are off when its dark, then one, two or 3 come up as it gets brighter.
+- Then change it again so that when its really bright, all 3 LEDS flash on and off repeatedly. 
+- Save your best program as, "my analogue program.cwz". 
+
+* Badge It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Silver and Gold Badges
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+
+- Complete the quiz
+<LINK TO QUIZ 3>
+** Platinum Task
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: design
+:END:
+Create a text document and answer the following questions:
+  - *Progress ladder Blue - Independently discuss PIC circuits and how they handle both digital and analogue data.*
+  - What are the advantages of using PIC chips over traditional circuit design?
+  - Giving examples, explain the difference between analogue and digital input components.
+  - In programming, what is meant by the term, "loop"? Why is is often advantageous to have programs use these, rather than running through their code from top to bottom?
+  - Write down the purpose of each pin on a Genie G08. E.g. Pin 1 - Power, Pin 2 -... etc. You can find out most of these by hovering the mouse over the pins in Circuit Wizard, but for some, you'll need to explore the Circuit Wizard help files.
+- Hand in your completed questions for the platinum badge. 
+
+[[file:index.html][Return to homepage]]

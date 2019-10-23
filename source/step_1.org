@@ -7,7 +7,7 @@
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
 #+TITLE: PIC Circuits
-#+AUTHOR: C. Delport
+#+AUTHOR: C. Delport / P.Dougall
 
 #+BEGIN_HTML
 <div class=ribbon>
@@ -101,6 +101,25 @@ While they might not look like much, there is more computational power in a sing
 Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+* Introduction.
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** What are PIC chips?
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: research
+:END:
+Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
+In school, we tend to use Genie branded chips, like the G08 model you will use in this project. Others (e.g. PICAXE) are available.
+PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
+Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
+
+While they might not look like much, there is more computational power in a single PIC chip used in school than there was in the space shuttle that went to the moon in the 60's!
+** When would I use a PIC chip?
+Imagine you wanted to make a flashing bike light; using an LED and a switch alone, you'd need to manually push and release the button to get the flashing effect. A PIC chip could be programmed to turn the LED off and on once a second.
+In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
+In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
+
 * Getting started with PIC circuit design.
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -109,7 +128,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: design
 :END:
-- Open up Circuit Wizard, and create the following circuit layout. The Genie C08 chip can be found in the "Microcontrollers" drop-down menu item.
+- Open up Circuit Wizard, and create the following circuit layout. The Genie G08 chip can be found in the "Microcontrollers" drop-down menu item.
 [[file:img/step_1.png]]
 - Whether its an LED or a PIC chips, the first thing that electronic components need is power, and a connection to ground. Circuit Wizard simplifies this for us by showing each of the 8 legs of the PIC (known as pins) in a different order to how they really are. This makes drawing the initial circuit easier. In this case, Power has been drawn by itself at the top of the chip, and the ground pin (the negative end of a battery) is at the bottom.
 - When designing PIC circuits, Inputs are placed to the left of the PIC chip. We're not going to worry about these for now.
@@ -143,90 +162,9 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Why are there two wait shapes, and not just one?
 - Modify your program, so that it comes on for 2s, off for 1s, on for 1s and off for 2s before repeating.
 - Modify your program so that the LED comes on for 3s ONCE, then blinks steadily on and off once a second until the program is stopped.
-- Save your file as FirstPIC.cwz in your Systems and Control\pic\ folder, then save it again straight away as SecondPic.cwz, so that you can make the next set of changes and still have a backup.
+- Save your file as FirstPIC.cwz in your Design Engineering\Year8\PIC folder, then save it again straight away as SecondPic.cwz, so that you can make the next set of changes and still have a backup.
 
-* Adding Inputs
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-** Design time
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: design
-:END:
-- Our PIC so far is quite limited. While its great that it can flash in patterns (it could signal SOS in [[http://en.wikipedia.org/wiki/Morse_code][Morse]] code), but PICs become more powerful when they can interact with the World around them.
-- Modify your circuit diagram to add a PTM (Push to Make) switch and 10k resistor, as shown in the screenshot below. Make sure you connect the bottom of the switch to input 3 on the PIC.
-[[file:img/step_4.png]]
-- If you run your circuit now, you'll see that clicking the button doesn't change the way the program behaves. This is because we've not told the PIC what we'd like to do yet.
-- Go back to your Flowchart, and add a "Digital" diamond to the top of the program, as shown in the picture below. Double-click the diamond, and set it to check if input 1 is turned on.
-[[file:img/step_5.png]]
-- Connect the flow lines as shown in the picture above, then go back to your circuit and run it. Click on the switch to see what happens.
-- Now go back to the flowchart and click play. While the simulation is running, you can click once on the diamond, and simulate pushing button 3 from there.
-** Coding time
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: run
-:END:
-- Modify the program so that pushing the button and holding it down turns on the LED, and releasing it turns it off. Save this as "PIC Torch.cwz"
-- Change it again, so that when you push and hold the button, it flashes on and off slowly. When the button is released, make it flash quickly.
-- Add two more LEDs to your circuit diagram, and make a note of which output pin they're connected to. You can change their colour by double-clicking them. Make output 0 red, output 1 amber and output 2 green.
-- Write a program that makes each of the LEDs come on for 2s at a time while the button is held down. When released, they should all turn off.
-- This is the *Silver badge - Progress ladder, Yellow - With assistance, write a simple program to manipulate outputs.* You can turn on multiple LEDs at once. Modify the code so that when the button is pushed, they simulate a set of [[http://www.drivingtesttips.biz/traffic-lights-sequence.html][traffic lights]] (make then change once every 2s). Save this as "PIC-traffic.cwz".
-- Congratulations! This program (or any of the others you've made) could be put straight onto the circuit you're going to make in your practical sessions.
-* Digital Vs. Analogue
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-** Design time
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: design
-:END:
-- We've nearly covered all the theory we'll need for this project. The last stage is to add the type of intput your project will use.
-- Some input components are digital. This means that they can only be either 'on' or 'off', like switches or buttons.
-- Some input components are analogue. This means they can have a range of different values, like a [[http://en.wikipedia.org/wiki/Photoresistor][LDR]] or [[http://en.wikipedia.org/wiki/Thermistor][thermistor]].
-- LDRs work because their resistance increases as it gets darker, and when connected to an analogue input on a PIC chip, this can be read as a number between 0 (very dark) and 255 (extremely bright).
-- Modify your circuit diagram, by swapping the PTM switch for an LDR (found in the Sensors section of Input Components in Circuit Wizard).
-- _*NOTE:*_ The LDR is connected to input 6. This is because an LDR is an analogue component, so needs to be connected to an input that can accept it (notice the /A after G1 in the picture below). 
-[[file:img/step_6.png]]
-- Your circuit should now look something like the picture above.
-- Lets look at the results of this work. Click the 'play' button to run the circuit, then click the text saying, 'View the analogue sensor readings' which can be seen on the far right-hand side of the circuit wizard window, about half-way down the screen.
-[[file:img/step_7.png]]
-- Your screen should look the same as shown above. If you now click once on the LDR symbol on the circuit diagram, you can simulate a change in light level by dragging 
-- We can now be a little more flexible about how our programs work. With a digital switch, we're no longer limited to "is it on?". We could program our chip to work as a light meter, for instance. 
-** Save It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: save
-:END:
-Save your work as "Analogue PIC.cwz".
-** Code It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: run
-:END:
-- Using the analogue diamond shape in Circuit Wizard, create the following program...
-[[file:img/step_12.png]]
-- Note the values I used on the decision diamonds.
-- Make sure with your output parallelograms that you turn off any outputs that aren't being turned on. For instance, in the bottom-left shape, I turned output 0 on, and also turned off outputs 1 and 2. 
-- Test your program when finished, and see how changing the light level affects how many LEDs are turned on.
-- This is the *Gold Badge - Progress ladder, Green - With assistance, write programs to handle inputs in a PIC circuit.*
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- Try adding another decision box to turn all 3 LEDs on when the light level is even higher. 
-- Try adding another decision box (and adjusting the others), so that all the LEDs are off when its dark, then one, two or 3 come up as it gets brighter.
-- Then change it again so that when its really bright, all 3 LEDS flash on and off repeatedly. 
-- Save your best program as, "my analogue program.cwz". 
-  
-* Badge It Platinum
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
-:END:
-** Assessment Task
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: design
-:END:
-Create a text document and answer the following questions:
-  - *Progress ladder Blue - Independently discuss PIC circuits and how they handle both digital and analogue data.*
-  - What are the advantages of using PIC chips over traditional circuit design?
-  - Giving examples, explain the difference between analogue and digital input components.
-  - In programming, what is meant by the term, "loop"? Why is is often advantageous to have programs use these, rather than running through their code from top to bottom?
-  - Write down the purpose of each pin on a Genie C08. E.g. Pin 1 - Power, Pin 2 -... etc. You can find out most of these by hovering the mouse over the pins in Circuit Wizard, but for some, you'll need to explore the Circuit Wizard help files. 
-[[file:index.html][Return to homepage]]
+** Quiz Time
+- Complete the quiz for badge.
+<LINK to Quiz1>
+

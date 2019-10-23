@@ -15,31 +15,39 @@
 </center>
 #+END_HTML
 
-* [[file:step_1.html][Lesson 1 - PIC Circuit Design]]
+* [[file:step_1.html][Lesson 1 - PIC Circuits]]
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
 	:END:
-* [[file:step_2.html][Lesson 2 - Soldering]]
+* [[file:step_1A.html][Lesson 2 - Adding Inputs]]
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
 	:END:
-* [[file:step_3.html][Lesson 3 - PCB Testing]]
+* [[file:step_1B.html][Lesson 3 - Digital vs Analogue]]
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
 	:END:
-* [[file:step_4.html][Lesson 4 - PC Connection and Testing]]
+* [[file:step_2.html][Lesson 4 - Soldering]]
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
 	:END:
-* [[file:step_5.html][Lesson 5 - PIC Coding Challenges]]
+* [[file:step_3.html][Lesson 5 - PCB Testing]]
+:PROPERTIES:
+	:HTML_CONTAINER_CLASS: activity
+	:END:
+* [[file:step_4.html][Lesson 6 - PC Connection and Testing]]
+:PROPERTIES:
+	:HTML_CONTAINER_CLASS: activity
+	:END:
+* [[file:step_5.html][Lesson 7 - PIC Coding Challenges]]
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
         :END:      
-* [[file:step_6.html][Lesson 6 - Housing]]
+* [[file:step_6.html][Lesson 8 - Housing]]
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
         :END:      
-* [[file:evaluation.html][Lesson 7 - Evaluation]]
+* [[file:evaluation.html][Lesson 9 - Evaluation]]
 :PROPERTIES:
 	:HTML_CONTAINER_CLASS: activity
         :END:      
