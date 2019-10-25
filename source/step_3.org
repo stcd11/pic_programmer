@@ -2,7 +2,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 #+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: Board Testing
+#+TITLE: Board Testing and Programming
 #+AUTHOR: C. Delport
 
 #+BEGIN_HTML
@@ -124,15 +124,52 @@ By this point, you should have a fully soldered together PCB (with a chip), a do
 - Once you're happy that your LEDs work, click the "Cancel" button. We're now going to test the LDR is working properly.
 - Choose "Calibrate sensor" from the right-hand menu. You'll see a numeric value between 0-255, which in this case represents the light level where you are. By covering and uncovering the sensor, you should see the value change, proving that your LDR is working correctly.
 - Make a note somewhere of what value the LDR gives under standard classroom lighting, and the value when it is covered up. This will be vital later in getting your programs to work.
-* Self assessment Point
+* First Program
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Assess your progress
+We've now got a working PCB that we can write software for. In this stage, we'll test some programs. 
+** Pushing a program to a PIC chip.
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Load Circuit Wizard, then open your FirstPIC.cwz program while your PCB is connected to the computer. Click the "Run Live" button, and your program will be uploaded after a few seconds. You can then unplug your PCB from the computer and remove the download cable. Whenever the PCB is powered up, it'll make the LEDs blink on and off.
+
+** Debugging a program
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: test
+:END:
+- Connect the PCB back up to the computer, so it is connected in Circuit Wizard. Click "Debug Live", then the "Start" button.
+- Ignore what's happening on the left-hand side of the screen for a moment, and click on the option that says, "View several panels at once".
+- In debug mode, you can monitor exactly what your Genie chip is doing, and which instruction it is running in real-time. 
+- You can also see which inputs and outputs are turned on, and use this information to help fix any issues (bugs) in your code.
+- The jog-wheel (shown as a circle just above the "Close" button allows you to slow the speed at which the program runs. This can be handy when there's a lot going on. Try this now.
+- Remember that while you are debugging, you won't be able to control the left-most LED, which will blink constantly while you are working. As soon as your PCB isn't connected to the computer, it will behave as it should, though.
+* Analogue programming
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Calibrate It
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: code
+:END:
+- Load up your "my analogue program.cwz" work that you produced in step 1.
+- Using the figures you obtained in step 3, modify the values of your analogue decision diamonds to make your program work.
+- You might want to use the "Calibrate Sensor" option again. Double-check that the mode is set to "2 inputs, 3 outputs (G0-G2)".
+- You might want to use the "Debug Live" feature to make sure the program is behaving how you expect before running live. 
+* Assessment Point
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Assessment Point
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-- On your portfolio, add screenshots of both your Analogue sensor under light and dark conditions.
-- Take a picture of your PCB connected to your computer. Try and take one while the status LED (the left-hand one) is illuminated.
-- *This is not a badge task to be uploaded to www.bournetolearn.com.* 
+- Take screenshots of your working analogue program, and write a few sentences describing how you modified your program, and the steps you took to ensure it worked correctly in a text document. Upload these pictures and the text document.
+- For the platinum task, write the same analogue program in GenieBasic. A video tutorial is available on the open drive on how to do this. Click the link [[\\brgradellnas\open$\Systems%20and%20Control\Year%208\PIC%20Licence][here]] to go to the file with the video. 
+- *Gold Badge* - Progress ladder, Blue - Test programs both in simulations and live, adapting code to compensate for any differences as needed.
+- *Platinum Badge* - Progress ladder, Violet - Use a text-based language to write a short PIC program.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dzous3M1uT4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
 [[file:index.html][Return to homepage]]
