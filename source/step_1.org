@@ -110,7 +110,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: research
 :END:
 Peripheral Interface Controllers are small silicon chips which can be programmed to perform useful tasks.
-In school, we tend to use Genie branded chips, like the G08 model you will use in this project. Others (e.g. PICAXE) are available.
+In school, we tend to use Genie branded chips, like the 08 model you will use in this project. Others (e.g. PICAXE) are available.
 PIC chips allow you connect different inputs (e.g. switches) and outputs (e.g. LEDs, motors and speakers), and to control them using flowcharts.
 Chips such as these can be found everywhere in consumer electronic products, from toasters to cars. 
 
@@ -128,7 +128,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: design
 :END:
-- Open up Circuit Wizard, and create the following circuit layout. The Genie G08 chip can be found in the "Microcontrollers" drop-down menu item.
+- Open up Circuit Wizard, and create the following circuit layout. The Genie 08 chip can be found in the "Microcontrollers" drop-down menu item.
 [[file:img/step_1.png]]
 - Whether its an LED or a PIC chips, the first thing that electronic components need is power, and a connection to ground. Circuit Wizard simplifies this for us by showing each of the 8 legs of the PIC (known as pins) in a different order to how they really are. This makes drawing the initial circuit easier. In this case, Power has been drawn by itself at the top of the chip, and the ground pin (the negative end of a battery) is at the bottom.
 - When designing PIC circuits, Inputs are placed to the left of the PIC chip. We're not going to worry about these for now.
