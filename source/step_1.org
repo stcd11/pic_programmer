@@ -128,8 +128,14 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: design
 :END:
-- Open up Circuit Wizard, and create the following circuit layout. The Genie 08 chip can be found in the "Microcontrollers" drop-down menu item.
+- Open up Circuit Wizard, and create the following circuit layout. Before you do, you will need to open a new file.
+- Always select "Circuit With GENIE Flowchart"
+[[./img/Circuit_wizard_selection.png]]
+- The Genie 08 chip can be found in the "Microcontrollers" drop-down menu item.
+- the battery can be found in the "Power Supplies" drop-down menu (right at the top).
+- the LED can be found in the "Light Emitting Diodes" drop-down menu, *be careful not to choose the "diode" opition.*
 [[file:img/step_1.png]]
+- Once complete, create a new folder in your home drive - Design Engineering\Year8\PIC folder. Now save the file as "FirstPIC" in your Design Engineering\Year8\PIC folder.
 - Whether its an LED or a PIC chips, the first thing that electronic components need is power, and a connection to ground. Circuit Wizard simplifies this for us by showing each of the 8 legs of the PIC (known as pins) in a different order to how they really are. This makes drawing the initial circuit easier. In this case, Power has been drawn by itself at the top of the chip, and the ground pin (the negative end of a battery) is at the bottom.
 - When designing PIC circuits, Inputs are placed to the left of the PIC chip. We're not going to worry about these for now.
 - Outputs are placed to the right of the PIC chip. In the project you're making, you'll actually use 3 LEDs, connected to the other output pins. For now, we can just leave outputs 2 and 4 empty.
@@ -162,9 +168,11 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Why are there two wait shapes, and not just one?
 - Modify your program, so that it comes on for 2s, off for 1s, on for 1s and off for 2s before repeating.
 - Modify your program so that the LED comes on for 3s ONCE, then blinks steadily on and off once a second until the program is stopped.
-- Save your file as FirstPIC.cwz in your Design Engineering\Year8\PIC folder, then save it again straight away as SecondPic.cwz, so that you can make the next set of changes and still have a backup.
+- Save your text file as "First Badge" in your Design Engineering\Year8\PIC folder.
+- Now go back and save the original Circuit Wizard file as SecondPic.cwz, so that you can make the next set of changes and still have a backup.
 
 ** Quiz Time
 - Complete the quiz for badge.
+- You need to also upload screenshots of your text files.
 <LINK to Quiz1>
 
