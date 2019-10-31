@@ -143,7 +143,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Below is how you would go about doing this.
 - *In this project, we are not going to change these settings.* 
 [[./img/rclick.png]]
-- Try and run the circuit. You'll see an error message, and the screen will change to show you a green flowchart symbol with the word, "Start" in it. This is because the PIC chip needs you to give it instructions as to what you'd like it to do. Using shapes located on the right-hand side of the screen and experimenting with clicking near the shapes you've drawn, create the following flowchart. We're going to make the LED blink on and off.
+- Try and run the circuit *(Click on the 'play' button)*. You'll see an error message, and the screen will change to show you a green flowchart symbol with the word, "Start" in it. This is because the PIC chip needs you to give it instructions as to what you'd like it to do. Using shapes located on the right-hand side of the screen and experimenting with clicking near the shapes you've drawn, create the following flowchart. We're going to make the LED blink on and off.
 [[file:img/step_2.png]]
 - If you had to guess, you could probably figure out that instructions are followed starting from "Start", and following the arrows to the bottom, before being started all over again endlessly. If you've tried to run the program, you'll see that its still not sure what you'd like it to do. 
 - Before it can run, the PIC chip needs a little more information. Which output(s) are we turning on? How long are we to wait for?
@@ -163,13 +163,14 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: run
 :END:
-- Try and modify your program and answer the questions below on a text document (.txt). You'll be saving this circuit in your home drive later.
-- Make the LED blink on and off twice as quickly.
-- Why are there two wait shapes, and not just one?
-- Modify your program, so that it comes on for 2s, off for 1s, on for 1s and off for 2s before repeating.
-- Modify your program so that the LED comes on for 3s ONCE, then blinks steadily on and off once a second until the program is stopped.
+- Open a .doc (Word document). You will screenshot all the steps here and answer the questions.
+- Try and modify your program. You'll be saving this circuit in your home drive later.
+- Make the LED blink on and off twice as quickly. Now screenshot the flowchart and paste it into the Word document.
+- Why are there two wait shapes, and not just one? Answer this question in the Word document.
+- Modify your program, so that it comes on for 2s, off for 1s, on for 1s and off for 2s before repeating. Now screenshot the flowchart and paste it into the Word document.
+- Modify your program so that the LED comes on for 3s ONCE, then blinks steadily on and off once a second until the program is stopped. Now screenshot the flowchart and paste it into the Word document
 - Save your text file as "First Badge" in your Design Engineering\Year8\PIC folder.
-- Now go back and save the original Circuit Wizard file as SecondPic.cwz, so that you can make the next set of changes and still have a backup.
+- Now go back and save the original Circuit Wizard file as "SecondPic", so that you can make the next set of changes and still have a backup.
 
 ** Quiz Time
 - Complete the quiz for badge.

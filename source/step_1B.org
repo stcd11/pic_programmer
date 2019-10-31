@@ -97,10 +97,10 @@
 - LDRs work because their resistance increases as it gets darker, and when connected to an analogue input on a PIC chip, this can be read as a number between 0 (very dark) and 255 (extremely bright).
 - Modify your circuit diagram, by swapping the PTM switch for an LDR (found in the Sensors section of Input Components in Circuit Wizard).
 - _*NOTE:*_ The LDR is connected to input 6. This is because an LDR is an analogue component, so needs to be connected to an input that can accept it (notice the /A after G1 in the picture below). 
-[[file:img/step_6.png]]
+[[file:img/Step_6A.png]]
 - Your circuit should now look something like the picture above.
 - Lets look at the results of this work. Click the 'play' button to run the circuit, then click the text saying, 'View the analogue sensor readings' which can be seen on the far right-hand side of the circuit wizard window, about half-way down the screen.
-[[file:img/step_7.png]]
+[[file:img/step_7A.png]]
 - Your screen should look the same as shown above. If you now click once on the LDR symbol on the circuit diagram, you can simulate a change in light level by dragging 
 - We can now be a little more flexible about how our programs work. With a digital switch, we're no longer limited to "is it on?". We could program our chip to work as a light meter, for instance. 
 ** Save It
