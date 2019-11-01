@@ -82,7 +82,6 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-
 * Digital Vs. Analogue
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
@@ -97,6 +96,7 @@
 - LDRs work because their resistance increases as it gets darker, and when connected to an analogue input on a PIC chip, this can be read as a number between 0 (very dark) and 255 (extremely bright).
 - Modify your circuit diagram, by swapping the PTM switch for an LDR (found in the Sensors section of Input Components in Circuit Wizard).
 - _*NOTE:*_ The LDR is connected to input 6. This is because an LDR is an analogue component, so needs to be connected to an input that can accept it (notice the /A after G1 in the picture below). 
+- *You will find the LDR in Circuit Wizard under the 'Sensors' option in the drop box.*
 [[file:img/Step_6A.png]]
 - Your circuit should now look something like the picture above.
 - Lets look at the results of this work. Click the 'play' button to run the circuit, then click the text saying, 'View the analogue sensor readings' which can be seen on the far right-hand side of the circuit wizard window, about half-way down the screen.
