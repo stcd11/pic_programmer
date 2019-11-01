@@ -85,6 +85,10 @@ In the last lesson, you looked at the theory of how the circuit works, and wrote
 :HTML_CONTAINER_CLASS: build
 :END:
 - Now, we'll start to build your actual PCB. Start by getting the PIC Programmer PCB, and get the resistors and an 8-pin chip carrier.
+- You will most likely want to solder the LEDs onto the PCB using *fly leads* (multi-core wire extensions). Below is a video on how to solder these in place from the 'Door Buzzer' project you did in year 7.
+#+begin_html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tHXH_kPDDjE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+#+end_html
 - Solder the resistors in, using the correct soldering technique.
 - Now look at your chip carrier. You'll notice there's a notch in one side. You'll notice a matching notch on the outline of the chip carrier on the PCB (labelled 'C08'). Solder this into the board the right way up, and take care to ensure none of the solder pads get soldered to one another (called a **solder bridge**), or leaving a pad so that the drill-hole is still visible (called a **dry joint**).
 - The picture below shows the soldering faults described above. 
@@ -97,7 +101,7 @@ file:img/faults.jpg]]
 - The LDR is non-polarised, so can be mounted either way round.
 - Try and keep all your components flat to the board, so that they're not sticking up in the air.
 [[./img/soldering2.jpg]]
-- When you're finished, your board should look something like the image above. 
+- When you're finished, your board should look something like the image above. However, yours should have fly leads for the LEDs.
 - You can now see your teacher for a Genie C08 chip, which you can insert into the chip holder. 
 - NOTE: Make sure the right way up, by ensuring that the notch in the Genie chip lines up with the notch on the chip carrier.
 * Assessment Point
