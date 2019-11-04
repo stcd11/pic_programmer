@@ -135,9 +135,9 @@ Save your work as "Analogue PIC.cwz".
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: design
 :END:
-
 - Complete the quiz
-<LINK TO QUIZ 3>
+- Click on [[https://www.bournetolearn.com/quizzes/y8-piclicence/Lesson_3/index.php][this]] link to complete the badge task.
+- Please also upload screenshots of your work.
 ** Platinum Task
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: design

@@ -130,6 +130,6 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 
 ** Badge It
 - Complete the quiz for the gold and silver badges
-<LINK QUIZ 2>
-
+- Click on [[https://www.bournetolearn.com/quizzes/y8-piclicence/Lesson_2/index.php][this]] link to complete the quiz.
+- Make sure you screenshot and upload your work along with the quiz.
 - Complete the Traffic Light simulation and hand in for the platinum badge.
