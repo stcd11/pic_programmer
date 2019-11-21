@@ -99,6 +99,10 @@
 - In this tutorial we will make our own part - Xmas Tree or a reindeer etc.- to add to the assembly.
 
 #+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TL_dkhFncUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
+
+#+BEGIN_HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mGqCqDuxBXg" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 #+END_HTML
 
