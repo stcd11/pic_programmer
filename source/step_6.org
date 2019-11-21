@@ -123,6 +123,25 @@
 #+BEGIN_HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e54Kv9vir3w" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 #+END_HTML
+** Contour
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- This is a video from the year 7 Mechanisms project.
+- You can click on [[https://bournetoinvent.com/projects/7-SC-Mechanisms/pages/7_Lesson.html][this]] link to go back and read it again.
+#+BEGIN_HTML
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/v1xIDcnJOpA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
+
+** Making holes
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge
+:END:
+- *The holes need to be 6.8mm in diameter (3.4mm radius).*
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-qGKmhh3V3c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_HTML
+
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
