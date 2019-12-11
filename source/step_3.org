@@ -84,6 +84,18 @@ By this point, you should have a fully soldered together PCB (with a chip), a do
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: test
 :END:
+- In order to connect the microcontroller to the computer, you will need a power supply and a download cable.
+- Below is a picture of the power supply and how to connect it.
+[[./img/Power_supply.JPG]]
+- First, make sure the switch on the back in on.
+[[./img/Power_switch.JPG]]
+- Second, Make sure the voltage is set to 9V.
+[[./img/9V_selection.JPG]]
+- Third, Connect the power supply to the battery snap, using the crocodile clips from the power supply.
+[[./img/Crocodile_clips.JPG]]
+- Below is what it should look like with only the USB needing to be connected to the computer. The 3.5mm stereo jack is already connected in the picture to the PCB.
+- The is a plug behind each computer monitor to plug in the power supply.
+[[./img/All_connected.JPG]]
 - When a PIC chip initially boots (starts) up, it briefly pulses output 0, which we happen to have an LED connected to.
 - Connect the 0V (negative) pin of your power connector to the PCB, then connect the positive power pin to the PCB while looking at the LEDs on the board.
 - If the left-hand LED (red in my examples) flashes for a split-second, then your Genie chip is receiving power, and at least one of your LEDs is working.
