@@ -92,7 +92,7 @@ In the last lesson, you looked at the theory of how the circuit works, and wrote
 - Solder the resistors in, using the correct soldering technique.
 - Now look at your chip carrier. You'll notice there's a notch in one side. You'll notice a matching notch on the outline of the chip carrier on the PCB (labelled 'C08'). Solder this into the board the right way up, and take care to ensure none of the solder pads get soldered to one another (called a **solder bridge**), or leaving a pad so that the drill-hole is still visible (called a **dry joint**).
 - The picture below shows the soldering faults described above. 
-file:img/faults.jpg
+file:img/faults.jpg]]
 
 - With these in place, you can add the other components in any order.
 - Remember to make sure to install the LEDs the right way around. You can use either 3mm or 5mm LEDs of any colour. Note that blue LEDs might not work, as they require slightly more voltage. 
